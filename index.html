@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Dashboard UI</title>
+    
+</head>
+<body>
+
+    <div class="app-container">
+
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <img src="./images/profilePic.jpg" alt="Profile Picture" class="profile-pic">
+                <h2>Amarachi Victoria</h2>
+                <p>amaravicky100@gmail.com</p>
+            </div>
+
+            <nav class="sidebar-nav">
+                <ul>
+                    <li>
+                        <a href="#" class="active">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><rect width="7" height="7" x="3" y="3" rx="1"/><rect width="7" height="7" x="14" y="3" rx="1"/><rect width="7" height="7" x="14" y="14" rx="1"/><rect width="7" height="7" x="3" y="14" rx="1"/></g></svg>
+                            <span>Dashboard</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m21.73 18l-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3M12 9v4m0 4h.01"/></svg>
+                            <span>Vital Task</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 11L12 14L22 4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M21 12V19C21 20.1046 20.1046 21 19 21H5C3.89543 21 3 20.1046 3 19V5C3 3.89543 3.89543 3 5 3H16" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            <span>My Task</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="3" width="18" height="18" rx="2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><line x1="3" y1="9" x2="21" y2="9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><line x1="9" y1="21" x2="9" y2="9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            <span>TaskCategories</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="sidebar-footer">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M9.671 4.136a2.34 2.34 0 0 1 4.659 0a2.34 2.34 0 0 0 3.319 1.915a2.34 2.34 0 0 1 2.33 4.033a2.34 2.34 0 0 0 0 3.831a2.34 2.34 0 0 1-2.33 4.033a2.34 2.34 0 0 0-3.319 1.915a2.34 2.34 0 0 1-4.659 0a2.34 2.34 0 0 0-3.32-1.915a2.34 2.34 0 0 1-2.33-4.033a2.34 2.34 0 0 0 0-3.831A2.34 2.34 0 0 1 6.35 6.051a2.34 2.34 0 0 0 3.319-1.915"/><circle cx="12" cy="12" r="3"/></g></svg>
+                            <span>Settings</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="12" cy="12" r="10" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M9.09 9C9.3251 8.33167 9.78915 7.76811 10.4 7.40913C11.0108 7.05016 11.7289 6.91894 12.4272 7.03871C13.1255 7.15848 13.7588 7.52152 14.215 8.06353C14.6712 8.60553 14.9211 9.29152 14.92 10C14.92 11.2 13.92 12 12.92 12.5C11.92 13 11.42 13.5 11.42 14" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12 18H12.01" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <span>Help</span>
+                        </a>
+                    </li>
+                </ul>
+                <a href="#" class="logout-btn">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V5C3 4.46957 3.21071 3.96086 3.58579 3.58579C3.96086 3.21071 4.46957 3 5 3H9" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M16 17L21 12L16 7" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M21 12H9" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <span>Logout</span>
+                </a>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            
+            <header class="main-header">
+                <h1>Dashboard</h1>
+                <div class="search-bar">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Search your task here...">
+                </div>
+                <div class="header-controls">
+                    <button class="icon-btn">
+                        <i class="fa-regular fa-calendar"></i>
+                    </button>
+                    <button class="icon-btn">
+                        <i class="fa-regular fa-bell"></i>
+                    </button>
+                    <div class="date-display">
+                        <p>Tuesday</p>
+                        <span>22 October 2025</span>
+                    </div>
+                </div>
+            </header>
+
+            <div class="dashboard-content">
+                <div class="welcome-header">
+                    <h2>Welcome back, Amarachi</h2>
+                    <div class="team-invite">
+                        <div class="team-avatars">
+                            <img src="./images/profilePic.jpg" alt="Team Member">
+                            <img src="/images/image1.jpg" alt="Team Member">
+                            <img src="/images/image2.jpg" alt="Team Member">
+                        </div>
+                        <button class="invite-btn">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><line x1="12" y1="5" x2="12" y2="19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><line x1="5" y1="12" x2="19" y2="12" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            <span>Invite</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dashboard-grid">
+
+                    <section class="tasks-section">
+                        <div class="section-header">
+                            <div>
+                                <h3>To-do</h3>
+                                <span class="date-info">22 June <strong>• Today</strong></span>
+                            </div>
+                            <a href="#" class="add-task-btn">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <line x1="12" y1="5" x2="12" y2="19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <line x1="5" y1="12" x2="19" y2="12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                Add task
+                            </a>
+                        </div>
+
+                        <div class="task-list">
+                            <div class="task-item">
+                                <div class="task-check">
+                                    <input type="checkbox">
+                                </div>
+                                <div class="task-details">
+                                    <h4>Attend Nischal's Birthday Party</h4>
+                                    <p>Buy gifts on the way and pick up cake from the bakery. (9 PM | Fresh Elements)</p>
+                                    <div class="task-meta">
+                                        <div class="priority">Priority: <span>Moderate</span></div>
+                                        <div class="status">Status: <span>Not Started</span></div>
+                                        <div class="created">Created on: 22/06/2023</div>
+                                    </div>
+                                </div>
+                                <div class="task-media">
+                                    <img src="./images/birthdaypic.jpg" alt="Task Image">
+                                    <button class="more-btn">
+                                        <i class="fa-solid fa-ellipsis"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="task-item">
+                                <div class="task-check">
+                                    <input type="checkbox">
+                                </div>
+                                <div class="task-details">
+                                    <h4>Landing Page Design for TravelDays</h4>
+                                    <p>Get the work done by EOD and send the file. (Client Review Meeting 4 PM | Meeting Room)</p>
+                                    <div class="task-meta">
+                                        <div class="priority">Priority: <span>Moderate</span></div>
+                                        <div class="status">Status: <span>In Progress</span></div>
+                                        <div class="created">Created on: 22/06/2023</div>
+                                    </div>
+                                </div>
+                                <div class="task-media">
+                                    <img src="/images/design.jpg" alt="Task Image">
+                                    <button class="more-btn">
+                                        <i class="fa-solid fa-ellipsis"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="task-item">
+                                <div class="task-check">
+                                    <input type="checkbox">
+                                </div>
+                                <div class="task-details">
+                                    <h4>Presentation on Final Product</h4>
+                                    <p>Make sure everything is functioning and all the necessities are properly met. Prepare the team and get the documents ready too.</p>
+                                    <div class="task-meta">
+                                        <div class="priority">Priority: <span>Moderate</span></div>
+                                        <div class="status">Status: <span>In Progress</span></div>
+                                        <div class="created">Created on: 18/06/2023</div>
+                                    </div>
+                                </div>
+                                <div class="task-media">
+                                    <img src="./images/presentation pic.jpg" alt="Task Image">
+                                    <button class="more-btn">
+                                        <i class="fa-solid fa-ellipsis"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <aside class="status-section">
+                        <div class="status-card">
+                            <h3>Task Status</h3>
+                            <div class="status-charts">
+                                <div class="chart completed"><span>84%</span></div>
+                                <div class="chart in-progress"><span>46%</span></div>
+                                <div class="chart not-started"><span>13%</span></div>
+                            </div>
+                            <div class="status-legend">
+                                <ul>
+                                    <li>
+                                        <span class="legend-dot completed"></span>
+                                        Completed
+                                    </li>
+                                    <li>
+                                        <span class="legend-dot in-progress"></span>
+                                        In Progress
+                                    </li>
+                                    <li>
+                                        <span class="legend-dot not-started"></span>
+                                        Not Started
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="status-card completed-task-card">
+                            <h3>Completed Task</h3>
+                            <div class="task-list">
+                                <div class="task-item completed">
+                                    <div class="task-check" style="background-color:#10b981; height:20px; width: 30px; border-radius: 3px;">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 6L9 17L4 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                    </div>
+                                    <div class="task-details">
+                                        <h4>Walk the dog</h4>
+                                        <p>Take the dog to the park and bring treats as well.</p>
+                                        <div class="task-meta">
+                                            <div class="status">Status: <span>Completed</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="task-media">
+                                        <img src="./images/walk a dog.jpg" alt="Task Image">
+                                    </div>
+                                </div>
+                                <div class="task-item completed">
+                                    <div class="task-check" style="background-color:#10b981; height:20px; width: 30px; border-radius: 3px;">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 6L9 17L4 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                    </div>
+                                    <div class="task-details">
+                                        <h4>Conduct meeting</h4>
+                                        <p>Meet with the client and finalize requirements.</p>
+                                        <div class="task-meta">
+                                            <div class="status">Status: <span>Completed</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="task-media">
+                                        <img src="./images/meeting pic.jpg" alt="Task Image">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+            </div>
+        </main>
+    </div>
+
+</body>
+</html>
