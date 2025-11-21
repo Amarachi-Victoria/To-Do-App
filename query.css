@@ -1,0 +1,47 @@
+/* Mobile Responsiveness */
+
+@media screen and (max-width: 480px) {
+  .sidebar {
+    width: 500px;
+    background: var(--primary-red);
+    color: var(--white);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 260px;
+    display: none;
+  }
+
+  .dashboard-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .header-controls .icon-btn {
+    background: var(--grey-light-1);
+    border: none;
+    border-radius: 10px;
+    padding: 0.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 20px;
+    display: none;
+  }
+
+  .date-display {
+    text-align: right;
+    display: none;
+  }
+}
+
+/* Tablet Responsiveness */
+@media screen and (max-width: 1140px) {
+  .dashboard-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
