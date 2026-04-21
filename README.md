@@ -18,7 +18,7 @@ Many people struggle with staying organized and tracking tasks. This application
 ## Preview
 ![Homepage](./assets/Homepage.jpeg)
 ![Mobile View](./assets/Mobile.jpeg)
-![Mobile View](./assets.Mobile_2.jpeg)
+![Mobile View](./assets/Mobile_2.jpeg)
 
 ## Problems I Solved
 - Ensured tasks update dynamically without breaking the UI
